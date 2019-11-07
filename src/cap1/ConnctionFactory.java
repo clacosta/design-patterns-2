@@ -10,7 +10,7 @@ public class ConnctionFactory {
 		
 		try {
 		
-			Connection c = DriverManager.getConnection("jdbc:mysql://localhost/banco", "root", "123");
+			Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/banco", "root", "123");
 			return c;
 		
 		} catch (SQLException e) {
