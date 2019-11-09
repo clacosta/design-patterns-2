@@ -12,8 +12,14 @@ public class NotasMusicaisUsandoRefexao {
 
     static {
          clazzes = Arrays.asList(
-                    Do.class, Re.class, Mi.class, Fa.class, 
-                    Sol.class, La.class, Si.class);
+                    Do.class, 
+                    DoSustenido.class, 
+                    Re.class, 
+                    Mi.class,
+                    Fa.class, 
+                    Sol.class, 
+                    La.class,
+                    Si.class);
     }
 
     public Nota pega(String nome) {

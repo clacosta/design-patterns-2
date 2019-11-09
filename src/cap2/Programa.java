@@ -11,11 +11,13 @@ public class Programa {
 				
 		List<Nota> musica = Arrays.asList(
 				notas.pega("do"), 
+				notas.pega("dosustenido"), 
 				notas.pega("re"), 
 				notas.pega("mi"),
 				notas.pega("fa"), 
-				notas.pega("fa"), 
-				notas.pega("fa")
+				notas.pega("sol"), 
+				notas.pega("la"),
+				notas.pega("si")
 		);
 		
 		System.out.println(musica);
@@ -27,11 +29,13 @@ public class Programa {
 		
 		List<Nota> musicaUsandoReflexao = Arrays.asList(
 				notasUsandoReflexao.pega("do"), 
+				notasUsandoReflexao.pega("dosustenido"), 
 				notasUsandoReflexao.pega("re"), 
 				notasUsandoReflexao.pega("mi"),
 				notasUsandoReflexao.pega("fa"), 
-				notasUsandoReflexao.pega("fa"), 
-				notasUsandoReflexao.pega("fa")
+				notasUsandoReflexao.pega("sol"), 
+				notasUsandoReflexao.pega("la"),
+				notasUsandoReflexao.pega("si")
 		);
 		
 		Flauta flauta = new Flauta();
