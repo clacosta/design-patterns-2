@@ -20,6 +20,9 @@ public class NotasMusicais {
 	
 	public Nota pega(String nome) {
 		
+		if(!notas.containsKey(nome)) {
+			
+		}
 		return notas.get(nome);
 		
 	}

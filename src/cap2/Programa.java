@@ -23,6 +23,20 @@ public class Programa {
 		Piano piano = new Piano();
 		piano.toca(musica);
 		
+		NotasMusicaisUsandoRefexao notasUsandoReflexao = new NotasMusicaisUsandoRefexao();
+		
+		List<Nota> musicaUsandoReflexao = Arrays.asList(
+				notasUsandoReflexao.pega("do"), 
+				notasUsandoReflexao.pega("re"), 
+				notasUsandoReflexao.pega("mi"),
+				notasUsandoReflexao.pega("fa"), 
+				notasUsandoReflexao.pega("fa"), 
+				notasUsandoReflexao.pega("fa")
+		);
+		
+		Flauta flauta = new Flauta();
+		flauta.toca(musicaUsandoReflexao);
+		
 	}
 	
 }
