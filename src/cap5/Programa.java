@@ -13,6 +13,11 @@ public class Programa {
 		Visitor impressora = new ImpressoraVisitor();
 		esquerda.aceita(impressora);
 		
+		System.out.println();
+		
+		PreFixaVisitor preFixa = new PreFixaVisitor();
+		esquerda.aceita(preFixa);
+		
 	}
 	
 }
